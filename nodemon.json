@@ -1,0 +1,10 @@
+{
+	"ext": "ts",
+	"watch": [
+		"src/**"
+	],
+	"ignore": [
+		"*.test.ts"
+	],
+	"exec": "tsc; node -r dotenv/config dist/index.js"
+}
