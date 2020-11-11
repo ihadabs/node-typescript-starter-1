@@ -3,6 +3,9 @@
 	"version": "1.0.0",
 	"description": "",
 	"main": "dist/index.js",
+	"repository": {
+		"url": "https://github.com/ihadabs/node-typescript-starter-1"
+	},
 	"scripts": {
 		"build": "rm -rf dist && tsc",
 		"serve": "rm -rf dist; tsc; nodemon -r dotenv/config dist/index.js",
